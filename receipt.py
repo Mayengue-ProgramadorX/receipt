@@ -45,9 +45,9 @@ total = subtotal + tax
 #Alls display
 #display for price and qty alls
 #for give space  left and spific size use "<:any number "
-print(f"{item1_name:<16} ${item1_pre:<5} X {item1_qt:<4} ${tot1:<6}")
-print(f"{item2_name:<16} ${item2_pre:<5} X {item2_qt:<4} ${tot2:<6}")
-print(f"{item3_name:<16} ${item3_pre:<4} X {item3_qt:<4} ${tot3:<6}")
+print(f"{item1_name:<16} ${item1_pre:<5:.2f} X {item1_qt:<4:.2f} ${tot1:<6:.2f}")
+print(f"{item2_name:<16} ${item2_pre:<5:.2f} X {item2_qt:<4:.2f} ${tot2:<6:.2f}")
+print(f"{item3_name:<16} ${item3_pre:<4:.2f} X {item3_qt:<4:.2f} ${tot3:<6:.2f}")
 
 print("-"*44)
 
